@@ -16,6 +16,17 @@
 		
 		<script>
 			$('<img src="img/yolanda-sun-40675-unsplash-min.jpg">');
+			$('#animation').css('visibility','hidden');
+			$(window).scroll(function(){
+				var windowHeight = $(window).height(),
+				    topWindow = $(window).scrollTop();
+				$('#animation').each(function(){
+					var targetPosition = $(this).offset().top;
+					if(topWindow > targetPosition - windowHeight + 100){
+						$(this).addClass("fadeInDown");
+					}
+				});
+			});
 		</script>
 		
 		<link rel="stylesheet" href="org.css">
@@ -53,7 +64,7 @@
 		</div>
 		
 		<div class="h-100 px-5 d-flex align-items-center ">
-			<blockquote class="blockquote py-4 col-12 col-sm-6  mx-auto">
+			<blockquote id="animation" class="blockquote py-4 col-12 col-sm-6  mx-auto">
 				<p class="lead">「変化に対応し続けるたびに技術以外に、何が必要なのか、何を求められているのかを考え続けてきました。」</p>
 				<footer class="blockquote-footer">藺牟田 義敬</footer>
 			</blockquote>

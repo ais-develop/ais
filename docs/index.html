@@ -1,127 +1,139 @@
-<html>
+<!doctype html>
+<html lang="ja">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="Content-Style-Type" content="text/css">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
 	<META name="keywords" content="(株)AIS,ais,システム,開発,web製作">
 	<META name="description" content="AISは皆様と共に考えたシステムを提供するソフトウェアの会社です。各種Ｗｅｂサイトの開発、クライアント／サーバー型システムの構築、保守各種通信制御システムの開発及び技術支援など請け負います。">
 	<META name="robots" content="index">
+	
+	<title>アコーダンスインフォメーションシステム | Accord Information System</title>
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 
-	<title>(株)AIS｜Accord Information System</title>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	
-	<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
-	<!-- animate -->
-	<link rel="stylesheet" href="styles/animate.min.css">
-	<!-- /animate -->
-	
-	<link rel="stylesheet" href="styles/org.css">
-	
-	<script>
-		$('<img src="img/yolanda-sun-40675-unsplash-min.jpg">');
-	</script>
+	<link rel="stylesheet" href="ais.css">
 </head>
-<body style="background-color:#3cb371;">
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background: rgba(17, 40, 32, 0.8);">
-		<a class="navbar-brand" href="#">
-			<img src="img/ntitle.png" alt="ais" style="height:24px;">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item text-light"><a class="nav-link" href="#aboutus">会社思想</a></li>
-				<li class="nav-item"><a class="nav-link" href="business.html">事業内容</a></li>
-				<li class="nav-item"><a class="nav-link" href="recruit.html">採用情報</a></li>
-				<li class="nav-item"><a class="nav-link" href="access.html">アクセス</a></li>
-			</ul>
-		</div>
-	</nav>
-	
-	<div class="container-fluid h-100 mb-1 d-flex align-items-center bg-light rounded" style="background:url(img/yolanda-sun-40675-unsplash-min.jpg) center no-repeat; background-size: cover;">
-		<div class="row mx-auto py-4">
-			<div id="logo" class="col-12 text-left" style="display: none;">
-				<h1 class="display-4 font-italic rounded" style='white-space: nowrap; font-family: "Sawarabi Mincho", Georgia, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;'>Ａ·Ｉ·Ｓ</h1>
-				<hr class="my-2">
-				<p class="lead pl-2">Accord Information System</p>
+<body>
+	<div id="wrap" class="w-100">
+		<header id="top-head" class="masthead">
+			<div class="logo d-flex justify-content-center">
+				<i class="logo_image"></i>
+				<h2 class="logo_text">Accord Information System</h2>
 			</div>
-			<div id="logo_text" class="col-12 text-sm-right" style="display: none;">
-				<p class="p-0 m-0">すべての調和を考えたシステムを</p>
-				<p class="p-0 mb-2">皆様と共に考えていきたい</p>
-				<p class="p-0">そんなシステムを提供するソフトウェアの会社です</p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="h-100 px-5 my-1 d-flex align-items-center bg-light rounded">
-		<blockquote class="blockquote p-4 col-12 col-sm-8 mx-auto rounded bg-white"  style="box-shadow: 3px 2px 4px #666;">
-			<p class="lead">「変化に対応し続けるたびに技術以外に、何が必要なのか、何を求められているのかを考え続けてきました。」</p>
-			<footer class="blockquote-footer">藺牟田 義敬</footer>
-		</blockquote>
-	</div>
-	
-	<div id="aboutus"></div>
-	<div class="container-fluid py-3 bg-light rounded" style="background:url(img/drew-beamer-679505-unsplash.jpg) center no-repeat; background-size: cover;">
-		<div class="rounded" style="background: rgba(255,255,255,1.0); box-shadow: 3px 2px 4px #666;">
-			<div class=" col-10 my-2 mx-auto p-4">
-				<div class="h2 mt-2 pl-1 pb-1 border-bottom border-dark">会社思想</div>
-				<p>近年、経済界・産業界・そしてスポーツ界までも、「グローバル化」と「ネットワーク化」によって大きな変貌を遂げてきました。</p>
-				<p class="m-0">そして、その大きな波は一般家庭にも及んでいます。</p><p>ＩＴ産業の中に生き続ける私たちは、常に新しい技術と向かい合わなければなりません。</p>
-				<p>私たちは、変化に対応し続けるたびに技術以外に、何が必要なのか、何を求められているのかを考え続けてきました。</p>
-				<p>やがて、その問いを解くために一つの言葉を発想しました。</p>
-				<p class="my-4 mx-auto lead text-center u_line col-10 col-sm-9 col-md-7 col-lg-5">Accordance - 調和</p>
-				<p class="my-2">すべての調和を考えたシステム</p>
-				<p class="my-2">そして人創りを皆様と共に考えていきたいと思っております。</p>
-			</div>
-		</div>
-	</div>
-	
-	<footer class="footer mt-1 px-4 pt-4 pb-2 rounded border-top border-black-50 text-muted" style="background-color:#eee; ">
-		<div class="row">
-			<div class="col-12 col-md-6">
-				<address>
-					<div>
-						<strong>E-MAIL</strong>
-						<a href="mailto:info@ais-c.jp">info@ais-c.jp</a>
+			<nav class="nav nav-menu d-flex justify-content-center">
+				<a class="nav-link active" href="#">Home</a>
+				<a class="nav-link" href="javascript:void(0);" id="nav_Features">Features</a>
+				<a class="nav-link" href="javascript:void(0);" id="nav_Contact">Contact</a>
+			</nav>
+		</header>
+		<main role="main">
+			<div id="main_first" class="p-container">
+				<div class="inner d-flex align-items-center" style="background: rgba(50,50,50,0.5);">
+					<div class="ais mx-auto" style="width:375px;">
+						<div id="logo" class="text-left">
+							<h1 class="display-2 font-italic ais" style='border-bottom:solid 1px #fff;'>Ａ·Ｉ·Ｓ</h1>
+							<p class="lead pl-2" style='font-family: "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;'>Accord Information System</p>
+						</div>
+						<p class="text-right idea" style="margin:16px 0 0 0;">すべての調和を考えたシステムを</p>
+						<p class="text-right idea">皆様と共に考えていきたい</p>
+						
+						<p class="text-right idea" style="margin:16px 0 0 0;">そんなシステムを提供する</p>
+						<p class="text-right idea">ソフトウェアの会社です</p>
 					</div>
-					<div>
-						<strong>TELEPHONE</strong>
-						<span>03-3833-5585</span>
-					</div>
-					<p>お問い合わせはAIS 東京営業所 又は、メールアドレスへ</p>
-				</address>
+				</div>
 			</div>
-			<div class="col-12 col-md-6">
-				<span class="font-weight-bold">ACCESS</span>
-					<div class="rounded border border-dark mb-2" style="height:80px; background:url(img/map.jpg) center no-repeat; background-size: cover; box-shadow: 3px 2px 4px;"></div>
-					<div>
-						<ul>
-							<li>ＪＲ御徒町駅 南口下車 徒歩５分</li>
-							<li>東京メトロ日比谷線 仲御徒町駅 南口１番出口 徒歩２分</li>
-						</ul>
-					</div>
-				<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404.97464406383386!2d139.7765873849444!3d35.70436774561777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea147e95555%3A0x248af0856291cc79!2z44ixQUlT!5e0!3m2!1sja!2sjp!4v1545718142118" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+			<div id="main_second" class="p-container">
+				<div class="inner">
+					<p>近年、経済界・産業界・そしてスポーツ界までも、「グローバル化」と「ネットワーク化」によって大きな変貌を遂げてきました。そして、その大きな波は一般家庭にも及んでいます。ＩＴ産業の中に生き続ける私たちは、常に新しい技術と向かい合わなければなりません。</p>
+					<p>私たちは、変化に対応し続けるたびに技術以外に、何が必要なのか、何を求められているのかを考え続けてきました。やがて、その問いを解くために一つの言葉を発想しました。</p>
+					<p>accordance</p>
+					<p>すべての調和を考えたシステム、そして人創りを皆様と共に考えていきたいと思っております。
+				</div>
 			</div>
-		</div>
-		<hr>
-		<div>
-			<span>&copy;AIS Accord Information System</span>
-		</div>
-	</footer>
-	<script>
+			<div id="main_third" class="p-container">
+				<div class="inner">
+					<h3>webサイトの提案、構築、運用、保守</h3>
+					<h3>クライアント／サーバー型システムの提案、構築、開発、運用、保守</h3>
+					<h3>各種通信制御システムの開発及び技術支援</h3>
+				</div>
+			</div>
+		</main>
 		
-		$(function() {
-			$('#logo').show().addClass('fadeInDown animated');
-			$('#logo_text').show().addClass('fadeInUp animated');
-		});
-	</script>
+		<footer class="mastfoot">
+			<div class="d-flex flex-column w-100" style="height:400px;">
+				<div class="container mt-4 text-left">
+					<div class="row">
+						<div class="col-12 col-md-6">
+							<!-- left -->
+							<h4>交通アクセス</h4>
+							<div class="text-center">
+							<!-- <iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.8770787246217!2d139.7745629152595!3d35.70464238018885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188fa47b3b183f%3A0x2b6cdc694a0cb443!2z77yI5qCq77yJ77yh44O777yp44O777yz!5e0!3m2!1sja!2sjp!4v1599370372886!5m2!1sja!2sjp"
+								class="mx-auto"
+								width="80%"
+								height="200"
+								frameborder="0"
+								style="border:0;"
+								allowfullscreen=""
+								aria-hidden="false"
+								tabindex="0"></iframe> -->
+							</div>
+							<p>ＪＲ御徒町駅 南口下車 徒歩５分</p>
+							<p>東京メトロ 日比谷線 南口１番出口 徒歩２分
+							<p>東京都台東区台東３－１３－５ ＧＴビル５階</p>
+						</div>
+						<div class="col-12 col-md-6">
+							<!-- right -->
+							<h4>お問合せ</h4>
+							<address>AIS 東京営業所<span style="margin:0px 3px;color:#ddd;">03-3833-5585</span>又は、メール<a style="margin:0px 3px;color:#ddd;" href="mailto:info@ais-c.jp">info@ais-c.jp</a>へ</address>
+						</div>
+					</div>
+				</div>
+				<div class="mt-auto text-center">
+					<small class="bokasi px-4">Copyright © 2020 AIS All Rights Reserved.</small>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script> -->
+
+<script>
+function setBackGroundSize()
+{
+	$('header .nav').text(`リサイズしました w${window.outerWidth} h${window.outerHeight}`);
+	$('#main_first').css({'background-size': `auto ${window.parent.screen.height}px`});
+	//$('#main_second').css({'background-size': `${window.parent.screen.width}px auto`});
+	//$('#main_third').css({'background-size': `auto ${window.parent.screen.height}px`});
+}
+
+$(function(){
+	var $header = $('#top-head');
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 50) {
+			$header.addClass('fixed');
+		} else {
+			$header.removeClass('fixed');
+		}
+	});
+	
+	setBackGroundSize();
+	$(window).resize(function() {//リサイズされたときの処理
+		//setBackGroundSize()
+	});
+});
+</script>
 </body>
 </html>

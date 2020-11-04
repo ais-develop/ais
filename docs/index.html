@@ -114,7 +114,7 @@
 function setBackGroundSize()
 {
 	//$('header .nav').text(`リサイズしました w${window.outerWidth} h${window.outerHeight}`);
-	$('#main_first').css({'background-size': `auto ${window.parent.screen.height}px`});
+	$('#main_first').css({'background-size': `auto ${window.outerHeight}px`});
 	//$('#main_second').css({'background-size': `${window.parent.screen.width}px auto`});
 	//$('#main_third').css({'background-size': `auto ${window.parent.screen.height}px`});
 }
